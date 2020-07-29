@@ -7,7 +7,9 @@ class Anagram
   end
 
   def match(string)
-    @anagram == string
+    if @anagram == string
+      return string
+    end
   end
 
 end

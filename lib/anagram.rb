@@ -13,8 +13,8 @@ class Anagram
     anagramLetters = @anagram.split(//)
     if letters.sort == anagramLetters.sort
       matched << word
-   end
- end
+    end
+  end
    matched
   end
 

@@ -8,6 +8,7 @@ class Anagram
 
   def match(string)
     matched  = []
+    string.sort {a, b}
     b <=> a
   end
 

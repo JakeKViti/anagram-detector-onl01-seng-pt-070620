@@ -10,6 +10,7 @@ class Anagram
     matched = []
     words.each do |word|
     letters = word.split(//)
+    return letters
     anagramLetters = @anagram.split(//)
     if letters.sort == anagramLetters.sort
       matchedword = letters.join()

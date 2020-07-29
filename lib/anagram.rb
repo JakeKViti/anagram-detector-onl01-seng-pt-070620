@@ -14,6 +14,7 @@ class Anagram
     letters = word.split(//)
     anagram = @anagram.split(//)
     if letters.sort == anagram.sort
+      matchedword = letters.join()
       word << matched
    end
  end

@@ -6,11 +6,10 @@ class Anagram
     @anagram = anagram
   end
 
-  def match(string)
+  def match(words)
     matched  = []
-    #string.sort {|a, b| a <=> b }
-    string.collect{|x| x}
-    return string
+    #words.sort {|a, b| a <=> b }
+    words.collect{|x| x}
   end
 
 end

@@ -9,6 +9,7 @@ class Anagram
   def match(words)
     matched = []
     words.each do |word|
+      return words
     letters = word.split(//)
     #return letters
     anagramLetters = @anagram.split(//)

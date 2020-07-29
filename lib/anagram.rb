@@ -12,7 +12,6 @@ class Anagram
     matched = []
     words.each do |word|
     letters = word.split(//)
-    letters << letterArray
     return letters
    end
    new_array

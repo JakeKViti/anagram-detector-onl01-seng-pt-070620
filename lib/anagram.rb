@@ -8,9 +8,10 @@ class Anagram
 
   def match(words)
     new_array = []
+    letterArray = []
     words.each do |word|
-    return letters = word.split
-
+    letters = word.split
+    letters << letterArray
     #words.sort {|a, b| a <=> b}
    end
    new_array

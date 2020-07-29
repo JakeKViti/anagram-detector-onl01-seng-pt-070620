@@ -11,5 +11,6 @@ class Anagram
     string.sort {|a, b|}
     b <=> a
   end
+  end
 
 end

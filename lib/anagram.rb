@@ -8,6 +8,7 @@ class Anagram
 
   def match(string)
     matched  = []
+    return @anagram
   end
 
 end

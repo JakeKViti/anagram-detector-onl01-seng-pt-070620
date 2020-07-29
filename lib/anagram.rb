@@ -13,7 +13,7 @@ class Anagram
     words.each do |word|
     letters = word.split(//)
     anagram = @anagram.split(//)
-    return letters
+    return anagram
    end
    new_array
   end

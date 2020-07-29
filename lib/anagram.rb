@@ -9,7 +9,8 @@ class Anagram
   def match(string)
     matched  = []
     #string.sort {|a, b| a <=> b }
-
+    string.collect{|x| x}
+    
 
   end
 

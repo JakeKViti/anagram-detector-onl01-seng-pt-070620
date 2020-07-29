@@ -11,7 +11,7 @@ class Anagram
     #words.sort {|a, b| a <=> b }
     #words.collect{|x| x}
 
-    @anagram.matchwords
+    @anagram.match(words)
   end
 
 end

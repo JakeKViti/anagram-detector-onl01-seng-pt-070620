@@ -8,8 +8,10 @@ class Anagram
 
   def match(words)
     new_array = []
-    words.each do |a, b|
-
+    words.each do |word|
+    if word == @anagram
+      new_array << word
+    end
     #words.sort {|a, b| a <=> b}
    end
    new_array

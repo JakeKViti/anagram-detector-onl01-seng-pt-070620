@@ -11,7 +11,6 @@ class Anagram
     words.each do |word|
     letters = word.split(//)
     anagramLetters = @anagram.split(//)
-    return anagramLetters
     if letters.sort == anagramLetters.sort
       matchedword = letters.join()
       matched << matchedword

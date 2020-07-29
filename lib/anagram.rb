@@ -8,7 +8,7 @@ class Anagram
 
   def match(string)
     matched  = []
-    return @anagram
+    b <=> a
   end
 
 end

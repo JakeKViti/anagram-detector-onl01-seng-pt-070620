@@ -7,8 +7,6 @@ class Anagram
   end
 
   def match(words)
-    anagramArray = [@anagram]
-    letterArray = []
     matched = []
     words.each do |word|
     letters = word.split(//)

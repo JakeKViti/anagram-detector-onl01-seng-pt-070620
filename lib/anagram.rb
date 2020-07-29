@@ -10,6 +10,7 @@ class Anagram
     matched  = []
     #string.sort {|a, b| a <=> b }
     string.collect{|x| x}
+    return string
   end
 
 end

@@ -13,9 +13,10 @@ class Anagram
     words.each do |word|
     letters = word.split(//)
     anagram = @anagram.split(//)
-    return anagram
+    if letters.sort = anagram.sort
+      word << matched
    end
-   new_array
+   matched
   end
 
 end

@@ -13,8 +13,7 @@ class Anagram
     words.each do |word|
     letters = word.split(//)
     letters << letterArray
-    return letterArray
-    #words.sort {|a, b| a <=> b}
+    return letters
    end
    new_array
   end

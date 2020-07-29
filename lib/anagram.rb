@@ -16,6 +16,7 @@ class Anagram
     if letters.sort = anagram.sort
       word << matched
    end
+ end
    matched
   end
 

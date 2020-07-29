@@ -20,4 +20,3 @@ class Anagram
   end
 
 end
-
